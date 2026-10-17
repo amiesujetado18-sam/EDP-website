@@ -505,10 +505,10 @@ margin-bottom: 30px;
     width: min(100%, 900px);
     margin: 0 auto 35px;
     display: grid;
-    grid-template-columns: 1.5fr .8fr;
-    gap: 40px;
+    grid-template-columns: 1.2fr .8fr;
+    gap: 50px;
     align-items: center;
-    padding: 10px 0 30px;
+    padding: 35px 0 40px;
     border-bottom: 1px solid var(--border);
 }
 
