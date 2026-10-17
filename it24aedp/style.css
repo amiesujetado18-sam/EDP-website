@@ -514,8 +514,17 @@ margin-bottom: 30px;
 
 .story h2 {
     font-family: 'Playfair Display', Georgia, serif;
-    font-size: 28px;
-    margin-bottom: 15px;
+    font-size: 30px;
+    margin-bottom: 22px;
+}
+
+.story h2::after {
+    content: "";
+    display: block;
+    width: 45px;
+    height: 2px;
+    background: var(--sage);
+    margin-top: 12px;
 }
 
 .story p:not(.eyebrow) {
