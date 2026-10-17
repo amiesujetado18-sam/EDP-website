@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cozy Haven Café — coffee, tea, pastries, and cozy moments.">
+    <title>Cozy Haven Café | Brewed with Quiet Elegance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero-header" id="top">
+        <div class="brand">
+            <h1>COZY HAVEN</h1>
+            <p>Brewed with quiet elegance.</p>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <a href="#home" class="nav-link active" data-page="home">HOME</a>
+        <a href="#products" class="nav-link" data-page="products">PRODUCTS</a>
+        <a href="#about" class="nav-link" data-page="about">ABOUT US</a>
+    </nav>
+
+    <main class="page-shell">
+
+        <section class="page active" id="home">
+
+            <section class="welcome-banner">
+                <p class="eyebrow">YOUR LITTLE CORNER OF COMFORT</p>
+                <h2>Find Your Cozy Moment.</h2>
+                <p>Fresh coffee, delightful pastries, and little moments worth slowing down for.</p>
+                <button class="primary-button" data-go="products">
+                    EXPLORE OUR MENU
+                </button>
+            </section>
+
+            <section class="home-section">
+                <h2 class="section-title">Limited Time Promos</h2>
+                <p class="section-intro">A little treat to brighten your day.</p>
+
+                <div class="promo-grid">
+
+                    <article class="promo-card">
+                        <div class="promo-image">
+                            <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=600&q=80"
+                                 alt="Iced coffee with milk">
+                            <span class="promo-badge">15% OFF</span>
+                        </div>
+                        <div class="promo-copy">
+                            <h3>Iced Coffee Treat</h3>
+                            <p>Enjoy a refreshing iced coffee during your next visit.</p>
+                            <strong>Save on your next cup!</strong>
+                        </div>
+                    </article>
+
+                    <article class="promo-card">
+                        <div class="promo-image">
+                            <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80"
+                                 alt="Fresh croissants">
+                            <span class="promo-badge">COMBO DEAL</span>
+                        </div>
+                        <div class="promo-copy">
+                            <h3>Coffee & Pastry</h3>
+                            <p>Pair your favorite coffee with a freshly baked pastry.</p>
+                            <strong>Ask about our combo price.</strong>
+                        </div>
+                    </article>
+
+                    <article class="promo-card">
+                        <div class="promo-image">
+                            <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?auto=format&fit=crop&w=600&q=80"
+                                 alt="Matcha latte">
+                            <span class="promo-badge">FEATURED</span>
+                        </div>
+                        <div class="promo-copy">
+                            <h3>Matcha Moments</h3>
+                            <p>Take a refreshing break with a creamy matcha latte.</p>
+                            <strong>Try it today!</strong>
+                        </div>
+                    </article>
+
+                    <article class="promo-card">
+                        <div class="promo-image">
+                            <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=600&q=80"
+                                 alt="Chocolate cookies">
+                            <span class="promo-badge">SWEET DEAL</span>
+                        </div>
+                        <div class="promo-copy">
+                            <h3>Pastry Delight</h3>
+                            <p>Make your coffee break sweeter with a delicious cookie.</p>
+                            <strong>A lovely little treat.</strong>
+                        </div>
+                    </article>
+
+                </div>
+
+                <p class="sample-note">
+                    Sample promotions — replace these with your actual offers.
+                </p>
+            </section>
+
+            <section class="home-section reviews-section">
+                <h2 class="section-title">Customer Reviews</h2>
+                <p class="section-intro">
+                    Good food, good coffee, and moments worth sharing.
+                </p>
+
+                <div class="reviews-grid">
+
+                    <article class="review-card">
+                        <div class="review-stars">★★★★★</div>
+                        <h3>Great Coffee and Pastries</h3>
+                        <p>
+                            “The coffee is smooth, and the croissant is buttery
+                            and fresh. A lovely snack break!”
+                        </p>
+                        <span class="reviewer">— Sample Customer</span>
+                    </article>
+
+                    <article class="review-card">
+                        <div class="review-stars">★★★★★</div>
+                        <h3>A Refreshing Drink</h3>
+                        <p>
+                            “The iced latte is creamy and refreshing.
+                            It goes perfectly with something sweet.”
+                        </p>
+                        <span class="reviewer">— Sample Customer</span>
+                    </article>
+
+                    <article class="review-card">
+                        <div class="review-stars">★★★★★</div>
+                        <h3>My Afternoon Treat</h3>
+                        <p>
+                            “A nice place to slow down, enjoy a drink,
+                            and have a little pastry.”
+                        </p>
+                        <span class="reviewer">— Sample Customer</span>
+                    </article>
+
+                </div>
+
+                <p class="sample-note">
+                    Replace sample reviews with genuine customer feedback before publishing.
+                </p>
+            </section>
+
+            <section class="home-cta">
+                <h2>Your Next Favorite Cup Awaits.</h2>
+                <p>Take a break, treat yourself, and enjoy the Cozy Haven experience.</p>
+                <button class="primary-button" data-go="products">
+                    VIEW OUR MENU
+                </button>
+            </section>
+
+        </section>
+
+        <section class="page" id="products">
+            <h2 class="section-title">Our Menu</h2>
+            <p class="section-intro">
+                Freshly prepared favorites for your everyday pause.
+            </p>
+
+            <div class="filters">
+                <button class="filter active" data-category="all">All</button>
+                <button class="filter" data-category="coffee">Coffee</button>
+                <button class="filter" data-category="tea">Tea & Matcha</button>
+                <button class="filter" data-category="pastry">Pastries</button>
+            </div>
+
+            <div class="product-grid">
+
+                <article class="product-card" data-category="coffee">
+                    <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=700&q=80"
+                         alt="Signature iced latte">
+                    <div class="product-copy">
+                        <h3>Signature Iced Latte</h3>
+                        <p>Smooth espresso blended with fresh milk and ice.</p>
+                        <div class="product-bottom">
+                            <strong>₱120.00</strong>
+                            <button class="order-button" data-item="Signature Iced Latte">ORDER INFO</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-category="coffee">
+                    <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=700&q=80"
+                         alt="Classic cappuccino">
+                    <div class="product-copy">
+                        <h3>Classic Cappuccino</h3>
+                        <p>Rich espresso topped with soft, creamy foam.</p>
+                        <div class="product-bottom">
+                            <strong>₱110.00</strong>
+                            <button class="order-button" data-item="Classic Cappuccino">ORDER INFO</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-category="tea">
+                    <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?auto=format&fit=crop&w=700&q=80"
+                         alt="Iced matcha latte">
+                    <div class="product-copy">
+                        <h3>Iced Matcha Latte</h3>
+                        <p>Earthy matcha and milk for a smooth, refreshing drink.</p>
+                        <div class="product-bottom">
+                            <strong>₱140.00</strong>
+                            <button class="order-button" data-item="Iced Matcha Latte">ORDER INFO</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-category="tea">
+                    <img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=700&q=80"
+                         alt="Hot tea">
+                    <div class="product-copy">
+                        <h3>Chamomile Tea</h3>
+                        <p>A gentle cup for quiet and relaxing moments.</p>
+                        <div class="product-bottom">
+                            <strong>₱90.00</strong>
+                            <button class="order-button" data-item="Chamomile Tea">ORDER INFO</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-category="pastry">
+                    <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=700&q=80"
+                         alt="Butter croissant">
+                    <div class="product-copy">
+                        <h3>Butter Croissant</h3>
+                        <p>Golden, flaky pastry with a buttery finish.</p>
+                        <div class="product-bottom">
+                            <strong>₱85.00</strong>
+                            <button class="order-button" data-item="Butter Croissant">ORDER INFO</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-category="pastry">
+                    <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=700&q=80"
+                         alt="Chocolate cookies">
+                    <div class="product-copy">
+                        <h3>Chocolate Cookie</h3>
+                        <p>A soft, sweet cookie filled with chocolate chunks.</p>
+                        <div class="product-bottom">
+                            <strong>₱70.00</strong>
+                            <button class="order-button" data-item="Chocolate Cookie">ORDER INFO</button>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <p class="sample-note">
+                Sample menu and prices. Edit them to match your actual products.
+            </p>
+        </section>
+
+
+        <section class="page" id="about">
+
+            <div class="about-layout">
+                <div class="story">
+                    <p class="eyebrow">A LITTLE ABOUT US</p>
+                    <h2>Our Story</h2>
+                    <p>
+                        <strong>Cozy Haven</strong> is a welcoming café created
+                        for people who enjoy good coffee, comforting tea, and
+                        freshly served pastries. We want every visit to feel
+                        calm, warm, and special.
+                    </p>
+                    <p>
+                        Whether you are meeting a friend, taking a study break,
+                        or enjoying a quiet moment, we hope you find a little
+                        comfort here.
+                    </p>
+
+                </div>
+
+               <div class="owner-photos">
+
+                <div class="owner-card">
+                    <img src="https://i.ibb.co/0jghk076/f06734f4-2585-4d7b-9e89-131d6b2096ae.jpg" alt="Eugene Piolo Suminao">
+                    <h3>Eugene Piolo Suminao</h3>
+                     <p>Owner</p>
+                    </div>
+
+                <div class="owner-card">
+                    <img src="https://i.ibb.co/8LLjBX9K/30d52b25-2efb-4daa-9c65-335a706d4113.jpg" alt="Amie Sujetado">
+                    <h3>Amie Sujetado</h3>
+                    <p>Co-owner</p>
+                    </div>
+
+                    </div>
+
+
+            <div class="contact-layout">
+                <section class="find-us">
+    <h2>Find Us</h2>
+    <p>Visit Cozy Haven and enjoy a cozy cup of coffee.</p>
+
+    <div class="map-container">
+        <iframe
+            src="https://maps.google.com/maps?q=8.451683,125.165673&z=16&output=embed"
+            width="100%"
+            height="350"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+
+    <a href="https://maps.app.goo.gl/wwZJF6rttV69VwNT7"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="map-button">
+        Get Directions
+    </a>
+</section>
+
+                <section>
+                    <h3>Contact Us</h3>
+
+                    <form id="contact-form">
+                        <div class="form-row">
+                            <input type="text" name="name" placeholder="Full Name" required>
+                            <input type="email" name="email" placeholder="Email Address" required>
+                        </div>
+
+                        <input type="text" name="subject" placeholder="Subject">
+
+                        <textarea name="message" rows="5"
+                                  placeholder="How can we help you?" required></textarea>
+
+                        <button class="send-button" type="submit">SEND MESSAGE</button>
+                        <p class="form-note" id="form-message" role="status"></p>
+                    </form>
+
+                    <div class="contact-details">
+                        <p><strong>Phone:</strong> 0951-789-0021</p>
+                        <p><strong>Email:</strong> cozyhavencafe@gmail.com</p>
+                        <p><strong>Facebook:</strong> Cozy Haven</p>
+                    </div>
+                </section>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Cozy Haven Café. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
